@@ -16,6 +16,8 @@ function(examples list_name)
     endforeach()
 endfunction(examples)
 
+add_subdirectory(tpls/arpack)
+
 function(examplesslu list_name)
     foreach(l ${${list_name}})
         get_filename_component(lwe ${l} NAME_WE)

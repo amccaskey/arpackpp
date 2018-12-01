@@ -1,0 +1,3 @@
+[submodule "tpls/arpack"]
+	path = tpls/arpack
+	url = https://github.com/opencollab/arpack-ng
